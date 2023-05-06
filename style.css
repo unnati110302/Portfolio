@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+ 
+body::-webkit-scrollbar{
+    width: 6px;
+    height: 1px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(16deg, rgba(0,255,73,1) 0%, rgba(106,0,255,1) 28%, rgba(246,0,245,1) 50%);
+    border-radius: 6px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+:root {
+    --bg-color: #010946;
+    --h-color: #0B2447;
+    --text-color: #ffffff;
+    --hover-color:#d0cfcf;
+}
+
+body{
+    background-color:  var(--bg-color);
+}
+
+nav{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    font-size:  30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight:500 ;
+}
+
+nav ul li a:hover
+{
+    color: var(--hover-color);
+
+}
+
+.girl{
+    padding-left: 120px;
+    width: 55%;
+   
+} 
+ 
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    
+}
+
+h1{
+    font-size: 50px;
+    color: var(--text-color);
+
+}
+
+h3{
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+span{
+    color: #f1177d;
+    font-size: 23px;
+}
+
+hr{
+    border: 0.6px solid #fff;
+    width: 90px;
+    margin: 20px 0px;
+}
+
+p{
+    margin: 20px 0px;
+    color: #b0b0b0;
+    max-width: 45ch;
+}
+
+.btn{
+    background: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background: var(--hover-color);
+}
+
+.social{
+    position: absolute;
+    right: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social a{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.social a:hover{
+    color:var(--h-color);
+}
+
+.about-container{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.foot-img{
+    width: 15%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background: transparent;
+
+}
+
+.footer .te-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.footer img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.lni-whatsapp{
+    font-size: 19px;
+    margin-right:6px ;
+}
